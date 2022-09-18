@@ -8,7 +8,7 @@
     text-align: center;
     height: 400px;
     overflow: hidden;
-    background: url(pastry.jpg) no-repeat center center fixed;
+    background: url(pastry.jpg) no-repeat center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -24,7 +24,7 @@
 /* overflow can be used but you can also use padding-top above. */
 
 
-/* Padding-top if set to at lpx will give the h1 tag something to push against so when it is going down, it won't bring the container with it. */
+/* Padding-top if set to at least lpx will give the h1 tag something to push against so when it is going down, it won't bring the container with it. */
 
 h1 {
     margin-top: 150px;
@@ -42,7 +42,7 @@ h2 {
 }
 
 .header-img {
-    margin: 100px auto;
-    width: 30%;
-    height: 30%;
+    margin: 150px auto;
+    width: 50%;
+    height: auto;
 }
