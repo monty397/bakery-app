@@ -60,7 +60,7 @@ a {
     overflow: hidden;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 767px) {
     .flex-container {
         flex-wrap: wrap;
     }
