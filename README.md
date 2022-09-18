@@ -2,7 +2,7 @@
 Single UI page for a metaphorical bakery I'm currently building.
 
 # Demo
-https://akhil-bakery-app.netlify.app/
+https://akhil-bakery-app.netlify.app/ (Demo will change gradually as changes are made to the app.)
 
 # Bug (Blurred backgound image)
 For those who have viewed the demo link on a iphone specifically, you'll notice that the header background image is blurred. 
