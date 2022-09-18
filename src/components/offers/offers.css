@@ -1,0 +1,67 @@
+.offers-h1 {
+    font-size: 50px;
+    text-align: center;
+    margin-top: 10px;
+    font-family: 'Goudy Old Style';
+    color: inherit;
+}
+
+.offers-h4 {
+    margin-top: 50px;
+    font-size: 30px;
+    font-family: 'Goudy Old Style';
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.offers-p {
+    font-size: 20px;
+    font-family: 'Goudy Old Style';
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.offers-container {
+    margin-top: 70px;
+    background-color: lightgray;
+}
+
+.flex-container {
+    width: 100%;
+    background-color: lightgray;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-size: 25px;
+    color: black;
+}
+
+.child {
+    /* flex: 1; */
+    margin: 50px 30px;
+    text-align: center;
+    background-color: white;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.offers-img {
+    width: 100%;
+    height: 50%;
+}
+
+.offers-img2 {
+    width: 100%;
+    height: 30%;
+    overflow: hidden;
+}
+
+@media screen and (max-width: 1000px) {
+    .flex-container {
+        flex-wrap: wrap;
+    }
+}

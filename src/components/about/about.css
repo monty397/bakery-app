@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.about-h1 {
+    text-align: left;
+    margin-left: 0;
+    margin-top: 10px;
+    font-family: 'Goudy Old Style';
+    color: inherit;
+}
+
+.about-h4 {
+    margin-top: 30px;
+    font-weight: normal;
+    text-align: justify;
+    font-family: 'Goudy Old Style';
+    font-size: 25px;
+}
+
+#wrapper {
+    width: auto;
+    display: flex;
+    margin: 50px;
+    background-color: lightgray;
+}
+
+#left {
+    flex: 50%;
+    padding-right: 80px;
+    min-height: 100%;
+}
+
+#right {
+    flex: 50%;
+    min-height: 100%;
+}
+
+.about-img {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+@media screen and (max-width: 767px) {
+    #wrapper {
+        flex-wrap: wrap;
+    }
+}
