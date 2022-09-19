@@ -5,7 +5,7 @@ import Logo from './logo-transparent.png'
 function Header() {
   return (
     <div className="container">
-      <img className="header-img" src={Logo} alt="my logo for website"/>
+      <img className="header-img" src={Logo} alt="my logo for website" />
     </div>
   )
 }
