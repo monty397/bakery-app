@@ -13,7 +13,7 @@ function Offers() {
         <p className="offers-p">Click below to view the different types of pizza we have to offer</p>
         <Button
           style={{
-            marginBottom: "40px"
+            marginBottom: "40px",
           }}
           variant="outlined">Our Recipes</Button>
       </div>
@@ -23,7 +23,7 @@ function Offers() {
         <h4 className="offers-h4">View our Menu</h4>
         <p className="offers-p">Click Below to view our pastries that are alwasy fresh and ready to go.</p>
         <Button style={{
-          marginBottom: "40px"
+          marginBottom: "40px",
         }}
           variant="outlined">Our Menu</Button>
       </div>
