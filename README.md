@@ -9,5 +9,4 @@ For those who have viewed the demo link on a iphone specifically, you'll notice 
 This issue will be resolved hopefully once I've completed most of the designing of the app.
 
 # Future Changes
-1. Add Hamburger when screen size decreases.
-2. Footer.
+1. Footer.
