@@ -7,7 +7,6 @@ import Button from '@mui/material/Button';
 function Offers() {
   return (
     <div className="flex-container">
-
       <div class="child">
         <img className="offers-img" src={Menu} alt="View our free recipes." width="300px" height="300px" />
         <h4 className="offers-h4">We have Pizza too!!!</h4>
@@ -28,10 +27,7 @@ function Offers() {
         }}
           variant="outlined">Our Menu</Button>
       </div>
-
     </div>
-
-
   )
 }
 

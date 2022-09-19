@@ -37,11 +37,13 @@ a:hover {
     display: flex;
 }
 
+.search-box {
+    width: 100%;
+    height: 100%;
+}
+
 @media screen and (max-width: 835px) {
     ul {
         flex-direction: column;
     }
-    /* .logo {
-        flex-wrap: wrap;
-    } */
 }

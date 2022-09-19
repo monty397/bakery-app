@@ -41,7 +41,6 @@ a {
 }
 
 .child {
-    /* flex: 1; */
     margin: 50px 30px;
     text-align: center;
     background-color: white;
