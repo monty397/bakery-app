@@ -1,0 +1,22 @@
+.footer-container {
+    margin-top: -40px;
+    background-color: lightgrey;
+}
+
+.footer-content {
+    text-align: center;
+    background-color: white;
+    height: 100px;
+}
+
+.h2-footer {
+    font-family: 'Goudy Old Style';
+    margin-top: 80px;
+    text-align: center;
+    color: black;
+}
+
+.fab {
+    font-size: 40px;
+    padding: 5px;
+}

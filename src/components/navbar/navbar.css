@@ -27,12 +27,13 @@ li {
     list-style: none;
 }
 
-a:hover {
+
+/* a:hover {
     border-bottom: 1px solid red;
     border-bottom-width: 3px;
     padding-bottom: 3px;
     transition: .2s;
-}
+} */
 
 .logo {
     width: 190px;
