@@ -11,7 +11,7 @@ function Footer() {
         <h2 className="h2-footer">Tasty Delights &copy; 2022</h2>
         <a className="socials" href='https://www.facebook.com/'><FontAwesomeIcon icon={faFacebookSquare}></FontAwesomeIcon></a>
         <a className="socials" href='https://www.instagram.com/'><FontAwesomeIcon icon={faInstagramSquare}></FontAwesomeIcon></a>
-        <a className="socials" href='twitter.com'><FontAwesomeIcon icon={faTwitterSquare}></FontAwesomeIcon></a>
+        <a className="socials" href='https://www.twitter.com'><FontAwesomeIcon icon={faTwitterSquare}></FontAwesomeIcon></a>
         <a className="socials" href='https://web.whatsapp.com/'><FontAwesomeIcon icon={faWhatsappSquare}></FontAwesomeIcon></a>
       </div>
     </div>
