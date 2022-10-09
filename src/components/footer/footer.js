@@ -1,17 +1,18 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react'
 import './footer.css'
-<script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faFacebookSquare, faInstagramSquare, faTwitterSquare, faWhatsappSquare } from "@fortawesome/free-brands-svg-icons"
 
 function Footer() {
   return (
     <div className="footer-container">
       <div className="footer-content">
         <h2 className="h2-footer">Tasty Delights &copy; 2022</h2>
-        <a className="socials" href='https://www.facebook.com/'><i class='fab fa-facebook-square'></i></a>
-        <a className="socials" href='https://www.instagram.com/'><i class='fab fa-instagram'></i></a>
-        <a className="socials" href='#'><i class='fab fa-twitter-square'></i></a>
-        <a className="socials" href='https://web.whatsapp.com/'><i class='fab fa-whatsapp-square'></i></a>
+        <a className="socials" href='https://www.facebook.com/'><FontAwesomeIcon icon={faFacebookSquare}></FontAwesomeIcon></a>
+        <a className="socials" href='https://www.instagram.com/'><FontAwesomeIcon icon={faInstagramSquare}></FontAwesomeIcon></a>
+        <a className="socials" href='twitter.com'><FontAwesomeIcon icon={faTwitterSquare}></FontAwesomeIcon></a>
+        <a className="socials" href='https://web.whatsapp.com/'><FontAwesomeIcon icon={faWhatsappSquare}></FontAwesomeIcon></a>
       </div>
     </div>
   )
